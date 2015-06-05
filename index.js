@@ -1,1 +1,0 @@
-exports.sort = require('./lib/sort.js');

@@ -1,10 +1,11 @@
-/**
- * Created by Rinat on 14.09.14.
- */
-var expect = require("chai").expect;
+/// <reference path="../typings/mocha/mocha.d.ts" />
+/// <reference path="../typings/chai/chai.d.ts" />
 
-var algorithms = require('../index');
-var sort = algorithms.sort;
+import chai = require("chai");
+var expect = chai.expect;
+
+import algorithms = require('../index');
+var sort = new algorithms.Sort();
 
 describe('sort', function () {
     // run before every test
