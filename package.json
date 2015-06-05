@@ -1,7 +1,7 @@
 {
   "name": "algorithms",
   "version": "0.0.1",
-  "description": "Implementation of algorithms based on the book - Introduction to Algorithms, third edition. http://mitpress.mit.edu/books/introduction-algorithms",
+  "description": "Implementation of algorithms based on the books: Introduction to Algorithms, third edition http://mitpress.mit.edu/books/introduction-algorithms Algorithms, 4th Edition http://algs4.cs.princeton.edu/home/",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/RinatMullayanov/algorithms",
   "dependencies": {
+    "lodash": "^3.9.3",
     "rsvp": "^3.0.13",
     "string-formatter": "^0.2.0"
   },
