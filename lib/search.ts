@@ -2,7 +2,7 @@
 import _ = require('lodash');
 import ST = require('./st');
 
-
+//  Symbol table implementation with unordered array
 class ArrayST<Key, Value> implements ST<Key, Value> {
   private vals: Value[];
   private keys: Key[];
