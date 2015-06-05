@@ -2,7 +2,8 @@
 import _ = require('lodash');
 import ST = require('./st');
 
-//  Symbol table implementation with unordered array
+// Symbol table implementation with unordered array
+// taken as a basis http://algs4.cs.princeton.edu/31elementary/ArrayST.java.html
 class ArrayST<Key, Value> implements ST<Key, Value> {
   private vals: Value[];
   private keys: Key[];
