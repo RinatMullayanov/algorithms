@@ -16,7 +16,7 @@ You must have installed [Node.js]( https://nodejs.org/ ), [Typescript Compiler](
 #### Install all required dependencies:
 ```shell
 npm install
-tsd install
+tsd reinstall
 ```
 
 #### Build javascript files from typescript:
