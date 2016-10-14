@@ -5,14 +5,12 @@
 export class Sort {
   public insertionSort(array: any[]): any[] {
     let i: number;
-    let j: number;
-    let length: number;
     let key: number;
 
     // http://stackoverflow.com/questions/3978492/javascript-fastest-way-to-duplicate-an-array-slice-vs-for-loop
     let A = array.slice(0); // shallow copy array
 
-    for (j = 1, length = A.length; j < length; j++) {
+    for (let j = 1, length = A.length; j < length; j++) {
       key = A[j];
       i = j - 1;
 
@@ -41,7 +39,7 @@ export class Sort {
   }
 
   private merge(left: any[], right: any[]): any[] {
-    let result: any[] = [];
+    const result: any[] = [];
 
     while (left.length && right.length) {
       if (left[0] <= right[0]) {
