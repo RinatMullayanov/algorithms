@@ -3,8 +3,8 @@
 - [Algorithms, 4th Edition](http://algs4.cs.princeton.edu/home/)
 
 #### Sorting algorithms:
-1. [Insertion sort](https://github.com/RinatMullayanov/js-algorithms/blob/master/lib/sort.ts#L8).
-2. [Merge sort](https://github.com/RinatMullayanov/js-algorithms/blob/master/lib/sort.ts#L50).
+1. [Insertion sort](https://github.com/RinatMullayanov/js-algorithms/blob/master/lib/sort.ts#L6).
+2. [Merge sort](https://github.com/RinatMullayanov/js-algorithms/blob/master/lib/sort.ts#L28).
 
 #### Search:
 1. [Symbol table implementation with unordered array](https://github.com/RinatMullayanov/js-algorithms/blob/master/lib/search.ts).
