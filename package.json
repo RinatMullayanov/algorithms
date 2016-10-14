@@ -1,6 +1,6 @@
 {
   "name": "algorithms",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Implementation of algorithms based on the books: Introduction to Algorithms, third edition http://mitpress.mit.edu/books/introduction-algorithms Algorithms, 4th Edition http://algs4.cs.princeton.edu/home/",
   "main": "index.ts",
   "directories": {
