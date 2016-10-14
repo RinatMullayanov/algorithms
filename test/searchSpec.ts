@@ -7,12 +7,12 @@ describe('ArrayST', function () {
   beforeEach(function () {
     st1 = new ArrayST<number, string>();
   });
-  
+
   it('test put and get function', function () {
     st1.put(1, 'test1');
     st1.put(2, 'test2');
-    var expected = 'test1';
-    
+    const expected = 'test1';
+
     assert.equal(st1.get(1), expected);
   });
 });

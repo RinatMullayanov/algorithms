@@ -1,15 +1,18 @@
 {
   "name": "algorithms",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Implementation of algorithms based on the books: Introduction to Algorithms, third edition http://mitpress.mit.edu/books/introduction-algorithms Algorithms, 4th Edition http://algs4.cs.princeton.edu/home/",
-  "main": "index.js",
+  "main": "index.ts",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "typings": "typings install",
     "tsc": "tsc",
-    "test": "mocha --compilers ts:ts-node/register test/**/*.ts"
+    "tslint": "tslint *.ts lib/**/*.ts test/**/*.ts",
+    "test": "mocha --compilers ts:ts-node/register test/**/*.ts",
+    "precommit": "npm run tslint",
+    "prepush": "npm run test"
   },
   "repository": {
     "type": "git",
@@ -34,8 +37,10 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "husky": "^0.11.9",
     "mocha": "^3.1.2",
     "ts-node": "^1.4.3",
+    "tslint": "^3.15.1",
     "typescript": "^2.0.3",
     "typings": "^1.4.0"
   }
