@@ -1,11 +1,7 @@
-/// <reference path="../typings/mocha/mocha.d.ts" />
-/// <reference path="../typings/chai/chai.d.ts" />
+import { assert } from 'chai';
 
-import chai = require('chai');
-var assert = chai.assert;
-
-import ArrayST = require('../lib/search');
-var st1;
+import { ArrayST } from '../lib/search';
+let st1: ArrayST<any, any>;
 
 describe('ArrayST', function () {
   beforeEach(function () {

@@ -1,5 +1,4 @@
-import Sort = require('./lib/sort');
-var algorithms = {
+import { Sort } from './lib/sort';
+export const algorithms = {
   Sort:  Sort
 }
-export = algorithms;

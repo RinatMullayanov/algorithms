@@ -1,12 +1,14 @@
-'use strict';
 /**
  * Implementation of the standard search algorithms based on the book - 
  * Introduction to Algorithms, third edition http://mitpress.mit.edu/books/introduction-algorithms  
  */
-
-class Sort {
+export class Sort {
   insertionSort (array: any[]): any[] {
-      var i, j, length, key;
+      let i: number;
+      let j: number;
+      let length: number;
+      let key: number;
+
       // http://stackoverflow.com/questions/3978492/javascript-fastest-way-to-duplicate-an-array-slice-vs-for-loop
       var A = array.slice(0); // shallow copy array
 
@@ -26,7 +28,7 @@ class Sort {
   }
 
   private merge(left: any[], right: any[]): any[] {
-      var result = [];
+      let result: any[] = [];
 
       while (left.length && right.length) {
           if (left[0] <= right[0]) {
@@ -47,7 +49,7 @@ class Sort {
       return result;
   }
 
-  mergeSort (array): any[] {
+  mergeSort (array: any[]): any[] {
       if (array.length < 2) {
           return array;
       }
@@ -60,5 +62,3 @@ class Sort {
       return this.merge(this.mergeSort(left), this.mergeSort(right));
   }
 }
-
-export = Sort;

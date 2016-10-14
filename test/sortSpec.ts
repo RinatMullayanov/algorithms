@@ -1,11 +1,7 @@
-/// <reference path="../typings/mocha/mocha.d.ts" />
-/// <reference path="../typings/chai/chai.d.ts" />
+import { expect } from 'chai';
 
-import chai = require("chai");
-var expect = chai.expect;
-
-import algorithms = require('../index');
-var sort = new algorithms.Sort();
+import { algorithms } from '../index';
+const sort = new algorithms.Sort();
 
 describe('sort', function () {
     // run before every test

@@ -1,5 +1,7 @@
-//API for a generic basic symbol table
-interface ST<Key, Value> {
+/**
+ * API for a generic basic symbol table
+ */
+export interface ST<Key, Value> {
   put(key: Key, val: Value): void;
   get(key: Key): Value;
   delete(key: Key): void;
@@ -8,5 +10,3 @@ interface ST<Key, Value> {
   size(): number;
   getKeys(): Key[];
 }
-
-export = ST;

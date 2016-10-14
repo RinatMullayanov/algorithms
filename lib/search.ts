@@ -1,10 +1,10 @@
-/// <reference path="../typings/lodash/lodash.d.ts" />
-import _ = require('lodash');
-import ST = require('./st');
+import { ST } from  './st';
 
-// Symbol table implementation with unordered array
-// taken as a basis http://algs4.cs.princeton.edu/31elementary/ArrayST.java.html
-class ArrayST<Key, Value> implements ST<Key, Value> {
+/**
+ * Symbol table implementation with unordered array
+ * taken as a basis http://algs4.cs.princeton.edu/31elementary/ArrayST.java.html
+ */
+export class ArrayST<Key, Value> implements ST<Key, Value> {
   private vals: Value[];
   private keys: Key[];
   private count: number;
@@ -58,5 +58,3 @@ class ArrayST<Key, Value> implements ST<Key, Value> {
      return this.keys;
   }
 }
-
-export = ArrayST;
