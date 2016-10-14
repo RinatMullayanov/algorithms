@@ -10,17 +10,16 @@
 1. [Symbol table implementation with unordered array]( https://github.com/RinatMullayanov/js-algorithms/blob/master/lib/search.ts ).
 
 ### Usage
-You must have installed [Node.js]( https://nodejs.org/ ), [Typescript Compiler]( http://www.typescriptlang.org/ ) and [TypeScript Definition manager]( http://definitelytyped.org/tsd/ ).
+You must have installed [Node.js]( https://nodejs.org/), version **>= 6.2.0**.
 
 ### Need to start usage:
 #### Install all required dependencies:
 ```shell
 npm install
-tsd reinstall
+npm run typings
 ```
 
 #### Build javascript files from typescript:
 ```shell
-tsc
+npm run tsc
 ```
-
