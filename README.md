@@ -11,6 +11,7 @@
 
 #### Fibonacci:
 1. [Not a recursive algorithm for computing the Fibonacci numbers]( https://github.com/RinatMullayanov/js-algorithms/blob/master/lib/fibonacciNotRecursive.ts).
+2. [Recursive memoized algorithm for computing the Fibonacci numbers]( https://github.com/RinatMullayanov/js-algorithms/blob/master/lib/fibonacciRecursiveMemoized.ts).
 
 ### Usage
 You must have installed [Node.js](https://nodejs.org/), version **>= 6.2.0**.
