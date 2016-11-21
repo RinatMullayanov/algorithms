@@ -9,7 +9,7 @@ describe('Not recursive Fibonacci', function () {
   });
 
   it('F(0)', function () {
-    const expected = 1;
+    const expected = 0;
     const actual = fibonacci(0);
 
     expect(actual).to.deep.equal(expected);
@@ -78,4 +78,10 @@ describe('Not recursive Fibonacci', function () {
     expect(actual).to.deep.equal(expected);
   });
 
+  it('F(50)', function () {
+    const expected = 12586269025;
+    const actual = fibonacci(50);
+
+    expect(actual).to.deep.equal(expected);
+  });
 });

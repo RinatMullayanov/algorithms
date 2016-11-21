@@ -6,14 +6,14 @@
  * @returns {number}
  */
 export function fibonacci(n: number): number {
-  if (n === 0) {
-    return 1;
+  if (n === 0 || n === 1) {
+    return n;
   }
 
-  let prev = 1; // F(0)
+  let prev = 0; // F(0)
   let current = 1; // F(1)
 
-  for (let i = 3; i <= n; i++) {
+  for (let i = 2; i <= n; i++) {
     const temp = current;
     current += prev; // F(i)
     prev = temp; // F(i-1)
