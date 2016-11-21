@@ -20,7 +20,6 @@ You must have installed [Node.js](https://nodejs.org/), version **>= 6.2.0**.
 #### Install all required dependencies:
 ```shell
 npm install
-npm run typings
 ```
 
 #### Build javascript files from typescript:
