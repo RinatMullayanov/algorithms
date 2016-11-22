@@ -32,6 +32,7 @@
   },
   "homepage": "https://github.com/RinatMullayanov/algorithms",
   "dependencies": {
+    "@types/lodash": "^4.14.39",
     "lodash": "^4.16.4"
   },
   "devDependencies": {
